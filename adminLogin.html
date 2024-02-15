@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Placeholder Animation</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/adminLogin.css">
+</head>
+<body>
+<div class="container">
+    <form>
+        <input type="text" id="username" placeholder="Enter your username">
+        <label for="username" onclick="expand(this)">USERNAME</label>
+    
+        <input type="password" id="password" placeholder="Enter your password">
+        <label for="password" onclick="expand(this)">PASSWORD</label>
+    
+        <button>SUBMIT</button>
+    </form>
+</div>
+    <script>
+function expand(label){
+    var elemId = label.getAttribute("for");
+    document.getElementById(elemId).style.height = "45px";
+    document.getElementById(elemId).classList.add('my-style');
+    label.style.transform = "translateY(-45px)";
+}
+    </script>
+</body>
+</html>

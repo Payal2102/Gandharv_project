@@ -5,6 +5,9 @@
     --dark: #0F172B;
 }
 
+
+
+
 .ff-secondary {
     font-family: 'Pacifico', cursive;
 }
@@ -131,8 +134,8 @@
     }
 
     .navbar-dark .navbar-brand img {
-        max-height: 50px;
-        width: 80px;
+        max-height: 100px;
+        width: 150px;
     }
 }
 
