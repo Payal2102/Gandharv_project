@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Placeholder Animation</title>
+    <title>adminLoginPage</title>
     <!--Google Font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
@@ -9,23 +9,17 @@
 </head>
 <body>
 <div class="container">
-    <form>
-        <input type="text" id="username" placeholder="Enter your username">
-        <label for="username" onclick="expand(this)">USERNAME</label>
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter your name">
+        <label for="name" onclick="expand(this)">NAME</label>
     
         <input type="password" id="password" placeholder="Enter your password">
         <label for="password" onclick="expand(this)">PASSWORD</label>
     
-        <button>SUBMIT</button>
+        <a id="login" href="./index.html">LOGIN</a>
     </form>
 </div>
-    <script>
-function expand(label){
-    var elemId = label.getAttribute("for");
-    document.getElementById(elemId).style.height = "45px";
-    document.getElementById(elemId).classList.add('my-style');
-    label.style.transform = "translateY(-45px)";
-}
-    </script>
+
+    <script src="./js/adminLogin.js"></script>
 </body>
 </html>

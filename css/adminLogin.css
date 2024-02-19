@@ -17,13 +17,13 @@ body{
     height: 100vh;
     background: -o-linear-gradient(
         315deg,
-        #61D954,
-        #2EBF75
+        #e7a728,
+        #e19821
     );
     background: linear-gradient(
         135deg,
-        #61D954,
-        #2EBF75
+        #f4ae45,
+        #f4cb90
     );
 }
 .container{
@@ -73,10 +73,10 @@ input{
     color: #ffffff;
     pointer-events: none;
 }
-label[for = "username"]{
+label[for = "name"]{
     bottom: 280px;
 }
-#username{
+#name{
     bottom: 275px;
 }
 label[for = "password"]{
@@ -85,12 +85,12 @@ label[for = "password"]{
 #password{
     bottom: 165px;
 }
-button{
+#login{
     width: 260px;
     position: absolute;
     bottom: 60px;
     padding: 15px 0;
-    background-color: #2EBF75;
+    background-color: #f4aa15e2;
     color: #ffffff;
     border-radius: 5px;
 }
@@ -130,7 +130,7 @@ a{
     position: absolute;
     bottom: 0;
     background-color: #202020;
-    color: #2EBF75;
+    color: #e69a3c;
     text-align: center;
     font-size: 16px;
     padding: 12px 0;
