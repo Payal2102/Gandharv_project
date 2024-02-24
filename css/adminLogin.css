@@ -73,10 +73,10 @@ input{
     color: #ffffff;
     pointer-events: none;
 }
-label[for = "name"]{
+label[for = "username"]{
     bottom: 280px;
 }
-#name{
+#username{
     bottom: 275px;
 }
 label[for = "password"]{
